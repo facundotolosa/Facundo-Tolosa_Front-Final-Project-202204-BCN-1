@@ -25,6 +25,8 @@ describe("Given the Amazing Notes app", () => {
       cy.get(`[id="content"]`).type(`${testNote.content}{enter}`);
       cy.get(`[class="submit-input"]`).click();
 
+      cy.visit("home");
+
       cy.get(`[class="title"]`).contains(testNote.title).click();
 
       cy.get(`[class="content"]`).should("contain.text", testNote.content);

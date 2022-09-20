@@ -11,6 +11,7 @@ const NotePreviewListContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    min-height: 60vh;
   }
 
   li {
