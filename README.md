@@ -1,4 +1,4 @@
-# Amazing Notes - Back
+# Amazing Notes - Front
 [Amazing Notes](https://facundo-tolosa-front-final-project-202204-bcn.netlify.app) is a PWA where you can save text notes with different categories. You can delete or edit your notes and read notes of other users. As it is a PWA, you can use it offline.
 
 The technologies used for this proyect were:
